@@ -14,3 +14,8 @@ a {
 * {
   box-sizing: border-box;
 }
+
+h2 {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
