@@ -8,7 +8,7 @@ const SkeletonElements = ({ type }) => {
         'avatar': `${styles.skeleton} ${styles.avatar}`,
         'square': `${styles.skeleton} ${styles.square}`
     }
-    console.log(classes[type])
+    
     
     return <div className={classes[type]} ></div>;
 }
